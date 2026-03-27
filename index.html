@@ -1,0 +1,24 @@
+<div class="ship-card">
+  <h2>USS Missouri (BB-63)</h2>
+  <p>Class: Iowa-class Battleship</p>
+  <div class="status-bar">
+    <div class="health" style="width: 90%;"></div>
+  </div>
+</div>
+
+<style>
+.ship-card {
+  background: rgba(44, 62, 80, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.health {
+  height: 5px;
+  background: var(--gauge-green);
+  box-shadow: 0 0 10px var(--gauge-green);
+}
+</style>
